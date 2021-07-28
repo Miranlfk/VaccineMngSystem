@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="520.0" prefWidth="450.0" style="-fx-background-color: #FFFF8F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="276.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receipt" textAlignment="CENTER" wrappingWidth="152.13671875">
+         <font>
+            <Font name="Franklin Gothic Demi Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#180cf5" layoutX="76.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COVID 19 VACCINATION CENTER" wrappingWidth="297.5390625">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label layoutX="73.0" layoutY="143.0" prefHeight="41.0" prefWidth="152.0" text="First Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="143.0" prefHeight="41.0" prefWidth="152.0" text="Label" />
+      <Label layoutX="246.0" layoutY="252.0" prefHeight="41.0" prefWidth="152.0" text="Label" />
+      <Label layoutX="73.0" layoutY="195.0" prefHeight="41.0" prefWidth="152.0" text="Label" />
+      <Label layoutX="246.0" layoutY="195.0" prefHeight="41.0" prefWidth="152.0" text="Label" />
+      <Label layoutX="73.0" layoutY="252.0" prefHeight="41.0" prefWidth="152.0" text="Label" />
+   </children>
+</AnchorPane>
